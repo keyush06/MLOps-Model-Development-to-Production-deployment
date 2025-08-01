@@ -1,0 +1,7 @@
+{"timestamp":"2025-06-30T17:40:15.294371","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-30T17:40:15.295330","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-30T17:40:29.288774Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-30T17:40:29.288955Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-30T17:40:29.289059Z","level":"info","event":"Current task name:preprocess","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-30T17:40:29.289152Z","level":"info","event":"Dag name:ml_pipeline_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-30T17:40:33.863231Z","level":"error","event":"Process terminated by signal","signal":-15,"signal_name":"SIGTERM","logger":"task"}

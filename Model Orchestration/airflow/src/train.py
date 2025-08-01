@@ -42,7 +42,7 @@ def train(X_train, X_val, y_train, y_val, model_type = "linear", linear_type = N
             verbose_eval=False
         )
         y_pred = model.predict(dval)
-        rmse = mean_squared_error(y_val, y_pred, squared=False)
+        rmse = mean_squared_error(y_val, y_pred)
         mlflow.log_metric("rmse", rmse)
         mlflow.xgboost.log_model(model, artifact_path="models_mlflow_v2")
 
@@ -56,7 +56,7 @@ def train(X_train, X_val, y_train, y_val, model_type = "linear", linear_type = N
 
         model.fit(X_train, y_train)
         y_pred = model.predict(X_val)
-        rmse = mean_squared_error(y_val, y_pred, squared=False)
+        rmse = mean_squared_error(y_val, y_pred)
         mlflow.log_metric("rmse", rmse)
         mlflow.sklearn.log_model(model, artifact_path="models_mlflow_v2")
 
