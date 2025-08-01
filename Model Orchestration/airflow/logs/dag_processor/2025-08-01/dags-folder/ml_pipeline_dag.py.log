@@ -110,3 +110,16 @@
 {"timestamp":"2025-08-01T01:35:52.346462Z","level":"error","event":"Process terminated by signal","signal":-15,"signal_name":"SIGTERM","logger":"processor"}
 {"timestamp":"2025-08-01T01:36:23.142934","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-08-01T01:36:31.485707Z","level":"error","event":"Process terminated by signal","signal":-15,"signal_name":"SIGTERM","logger":"processor"}
+{"timestamp":"2025-08-01T01:37:01.609611","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T01:37:36.132334","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T01:38:10.734865","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T01:38:45.936737","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T01:39:20.030373","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T01:39:56.270340","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T01:41:17.669026","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T01:42:18.743687","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T01:42:22.922894Z","level":"error","event":"Process terminated by signal","signal":-15,"signal_name":"SIGTERM","logger":"processor"}
+{"timestamp":"2025-08-01T01:42:52.986804","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T01:43:27.428225","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T01:43:31.244422Z","level":"error","event":"Process terminated by signal","signal":-15,"signal_name":"SIGTERM","logger":"processor"}
+{"timestamp":"2025-08-01T01:44:06.551340","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline_dag.py","logger":"airflow.models.dagbag.DagBag"}
