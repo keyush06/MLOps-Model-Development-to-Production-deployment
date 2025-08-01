@@ -33,3 +33,12 @@ docker build -t ride-duration-prediction-service:v1 .
 
 # run anywhere, no local installs
 docker run -it --rm -p 9696:9696  ride-duration-prediction-service:v1
+```
+#### I have all my models saved in a SQLite Db on MLFlow. You can find my run models (XGBoost) in this folder: 
+> Experiment Tracking using MLFlow/mlruns/1
+
+You can serve a specific model run directly using the run ID. Example:
+
+Replace <run_id> with any of your run folder names (e.g., 03825066a5284d1981cb73e97e7e0fd4).
+```bash
+mlflow models serve -m ./mlruns/1/<run_id>/artifacts/models_mlflow --port 9696
