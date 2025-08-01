@@ -21,3 +21,15 @@
 
 - Deployed the trained model as a REST API using Flask, allowing real-time predictions via user input.
 - Containerized the app with Docker to simulate a real-world, always-on service.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+## Implementation details
+
+### Docker-only
+```bash 
+# build once
+docker build -t ride-duration-prediction-service:v1 .
+
+# run anywhere, no local installs
+docker run -it --rm -p 9696:9696  ride-duration-prediction-service:v1
